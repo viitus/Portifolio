@@ -2,15 +2,17 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import HeroImg2 from '../components/HeroImg2'
+import Work from '../components/Work'
 
-const projects = () => {
+const Projects = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <HeroImg2  heading="Projetos" text="esses são alguns dos meus projetos mais recentes"/>
-      <Footer />
+      <Work/>
+      <Footer/>
     </div>
   )
 }
 
-export default projects
+export default Projects
