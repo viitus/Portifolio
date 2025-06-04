@@ -19,12 +19,18 @@ const Footer = () => {
             </div>
 
             <div className="footer-right">
-                <h4>Sobre mim</h4>
-                <p>Desenvolvedor apaixonado por tecnologia, sempre buscando aprender e criar soluções criativas. Este é meu espaço para compartilhar projetos e ideias.</p>
+                <h4>Obrigado pela visita!</h4>
+                <p>Este site é um espaço onde compartilho um pouco sobre minha trajetória, projetos e interesses. Sinta-se à vontade para explorar e entrar em contato.</p>
                 <div className="social">
-                    <FaGithub size={30} style={{color: "#fff", marginRight: "2rem"}}/>
-                    <FaLinkedin size={30} style={{color: "#fff", marginRight: "2rem"}}/>
-                    <FaInstagram size={30} style={{color: "#fff", marginRight: "2rem"}}/>
+                    <a href="https://github.com/viitus" target="_blank" rel="noopener noreferrer">
+                        <FaGithub size={30} style={{color: "#fff", marginRight: "2rem"}}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/victordiasfrota/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={30} style={{color: "#fff", marginRight: "2rem"}}/>
+                    </a>
+                    <a href="https://www.instagram.com/8_plagues/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram size={30} style={{color: "#fff", marginRight: "2rem"}}/>
+                    </a>
                 </div>
             </div>
         </div>

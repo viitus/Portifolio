@@ -6,11 +6,11 @@ const Form = () => {
       <form>
         <label>Seu Nome:</label>
         <input type="text" placeholder="Nome" />
-        <label>Email</label>
+        <label>Seu Email:</label>
         <input type="email" placeholder="Email" />
-        <label>Assunto</label>
+        <label>Assunto:</label>
         <input type="text" placeholder="Assunto" />
-        <label>Messagem</label>
+        <label>Messagem:</label>
         <textarea rows="6" placeholder="Escreva sua mensagem aqui"></textarea>
         <button className="btn">Enviar</button>
       </form>

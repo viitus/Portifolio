@@ -7,8 +7,8 @@ const AboutContent = () => {
   return (
     <div className="about">
         <div className="left">
-            <h1>Quem sou eu?</h1>
-            <p>Eu sou um desenvolvedor web apaixonado por criar aplicações dinâmicas e responsivas. Minha jornada no desenvolvimento web é impulsionada pelo desejo de construir interfaces amigáveis e sistemas back-end eficientes.</p>
+            <h1>Minha Jornada</h1>
+            <p>Sou estudante de Engenharia de Computação, apaixonado por tecnologia, inovação e desenvolvimento de software. Já atuei como estagiário em Análise de Sistemas, onde pude aplicar meus conhecimentos em programação e análise de dados. Atualmente, estou envolvido em projetos acadêmicos relacionados a automação, qualidade de software e controle de estoque, sempre buscando aprimorar minhas habilidades e aprender novas tecnologias.</p>
             <Link to="/contact"><button className="btn">Contato</button></Link>
         </div>
         
