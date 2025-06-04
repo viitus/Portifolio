@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import HeroImg2 from '../components/HeroImg2'
 import AboutContent from '../components/AboutContent'
 
-const about = () => {
+const About = () => {
   return (
     <div>
       <NavBar />
@@ -15,4 +15,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import HeroImg2 from '../components/HeroImg2'
 import Form from '../components/Form'
 
-const contact = () => {
+const Contact = () => {
   return (
     <div>
       <NavBar />
@@ -15,4 +15,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

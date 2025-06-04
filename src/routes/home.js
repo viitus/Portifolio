@@ -6,7 +6,7 @@ import Work from '../components/Work'
 import AboutContent from '../components/AboutContent'
 import Form from '../components/Form'
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <NavBar />
@@ -19,4 +19,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
